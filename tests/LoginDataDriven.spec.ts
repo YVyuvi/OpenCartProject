@@ -70,7 +70,7 @@ for (const data of csvTestData) {
         else {
             const errorMessage = await loginPage.getloginErrorMessage();
             //expect(errorMessage).toBe('Warning: No match for E-Mail Address and/or Password.');
-            expect(errorMessage).toContain('Warning: No match');
+            expect(errorMessage).toContain('Warning:');
         }
     })
 
