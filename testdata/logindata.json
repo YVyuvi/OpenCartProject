@@ -1,0 +1,14 @@
+[
+  {
+    "testName": "Valid login",
+    "email": "Rafael_Ruecker@yahoo.com",
+    "password": "Kx1YAXlWJDJz2Ag",
+    "expected": "success"
+  },
+  {
+    "testName": "Invalid login",
+    "email": "dssasadsad",
+    "password": "abcxyx",
+    "expected": "failure"
+  }
+]
